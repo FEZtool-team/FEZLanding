@@ -1,3 +1,9 @@
+import * as dotenv from "dotenv";
+dotenv.config({
+  path: `./.env`,
+  override: false,
+});
+
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   app: {
